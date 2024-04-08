@@ -242,7 +242,7 @@ router.get('/person', function (req, res) {
         state: 'NY',
         zip: '10001',
         country: 'USA',
-      },
+      },  
       education: [
         {
           degree: 'Bachelor of Science',
@@ -258,7 +258,7 @@ router.get('/person', function (req, res) {
           title: 'Software Engineer',
           startDate: '2012-06-01',
           endDate: '2016-12-31',
-          responsibilities: [
+          responsibilities: [ 
             'Developed new features for Google Maps',
             'Worked on improving search algorithms',
           ],
@@ -269,13 +269,13 @@ router.get('/person', function (req, res) {
               name: 'John Smith',
               position: 'CEO',
               department: 'Executive',
-              projects: [
-                {
+              projects: [ 
+                {  
                   name: 'Project Alpha',
                   description:
                     'Developing new software platform',
                   status: 'In Progress',
-                  teams: [
+                  teams: [  
                     {
                       team_name: 'Awesome Team',
                       team_leader: {
@@ -283,7 +283,7 @@ router.get('/person', function (req, res) {
                         title: 'Team Leader',
                         email: 'john.smith@example.com',
                       },
-                      team_members: [
+                      team_members: [ 
                         {
                           name: 'Alice Johnson',
                           title: 'Software Engineer',
@@ -295,7 +295,7 @@ router.get('/person', function (req, res) {
                               name: 'Project A',
                               description:
                                 'Lorem ipsum dolor sit amet',
-                              technologies: [
+                              technologies: [ 
                                 'Java',
                                 'Spring Framework',
                               ],
